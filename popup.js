@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         headers: {
           'Content-Type': 'application/json',
           Authorization:
-            `Bearer ${process.env.OPENAI_API_KEY}`,
+            // `Bearer ${process.env.OPENAI_API_KEY}`,
+            'Bearer tauH3D_BkaPFInbagLP98GXB5kA6c5SfOF6yg1SxaOX7q6jgqR4MEUyZ2s14RhQo7awo_L0ktTT3BlbkFJosdixN7XJkXzneAJ5VS',
         },
         body: JSON.stringify({
           // model: 'gpt-4',
